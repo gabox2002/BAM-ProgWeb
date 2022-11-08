@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(50, 156, 35);
+}
+
+span {
+    color: blue;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 25px;    
+}
+
+div {
+    height: 500px;
+    width: 650px;
+
+}
+img {
+    width: 750px;
+}
