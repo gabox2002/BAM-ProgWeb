@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .navbar{
     background-color: azure;
 }
@@ -20,7 +25,15 @@ header{
 
 .links_navegacion li a{
     text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
 }
+.links_navegacion li a:hover {
+    color: red;
+    font-weight: 900;
+    background-color: white;
+}
+
 .titular{
     font-family: sans-serif;
 }
@@ -32,7 +45,7 @@ header{
   
 }
 
-#pie_de_pagina li{
+#pie_de_pagina ul li{
     list-style-type: none;
 }
 .boton_arriba{
@@ -47,4 +60,13 @@ header{
 
 .foot ul{
     display: flex;
+    gap: 25px
+}
+.perrito img{
+    transition: 0.3s ease;
+
+
+}
+.perrito img:hover {
+    transform: scale(1.1);
 }
